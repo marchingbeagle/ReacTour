@@ -6,7 +6,8 @@
     "country": "France",
     "path": "places/Paris.jpg",
     "favorite": false,
-    "hot": true
+    "hot": true,
+    "price": 800
   },
   {
     "number_of_people": 1,
@@ -15,7 +16,8 @@
     "country": "Japan",
     "path": "places/Tokyo.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1500
   },
   {
     "number_of_people": 4,
@@ -24,7 +26,8 @@
     "country": "Italy",
     "path": "places/Rome.jpg",
     "favorite": false,
-    "hot": true
+    "hot": true,
+    "price": 1000
   },
   {
     "number_of_people": 3,
@@ -33,7 +36,8 @@
     "country": "United States",
     "path": "places/NewYorkCity.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1200
   },
   {
     "number_of_people": 2,
@@ -42,7 +46,8 @@
     "country": "Spain",
     "path": "places/Barcelona.jpg",
     "favorite": false,
-    "hot": true
+    "hot": true,
+    "price": 900
   },
   {
     "number_of_people": 1,
@@ -51,7 +56,8 @@
     "country": "Australia",
     "path": "places/Sydney.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1800
   },
   {
     "number_of_people": 5,
@@ -60,7 +66,8 @@
     "country": "South Africa",
     "path": "places/CapeTown.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 2000
   },
   {
     "number_of_people": 2,
@@ -69,7 +76,8 @@
     "country": "Indonesia",
     "path": "places/Bali.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1100
   },
   {
     "number_of_people": 4,
@@ -78,7 +86,8 @@
     "country": "United Kingdom",
     "path": "places/London.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1300
   },
   {
     "number_of_people": 1,
@@ -87,7 +96,8 @@
     "country": "Brazil",
     "path": "places/RioDeJaneiro.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1000
   },
   {
     "number_of_people": 3,
@@ -96,7 +106,8 @@
     "country": "Netherlands",
     "path": "places/Amsterdam.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1400
   },
   {
     "number_of_people": 2,
@@ -105,7 +116,8 @@
     "country": "South Korea",
     "path": "places/Seoul.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 900
   },
   {
     "number_of_people": 1,
@@ -114,7 +126,8 @@
     "country": "United Arab Emirates",
     "path": "places/Dubai.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 2000
   },
   {
     "number_of_people": 4,
@@ -123,7 +136,8 @@
     "country": "Czech Republic",
     "path": "places/Prague.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1000
   },
   {
     "number_of_people": 2,
@@ -132,7 +146,8 @@
     "country": "United States",
     "path": "places/Hawaii.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1500
   },
   {
     "number_of_people": 1,
@@ -141,7 +156,8 @@
     "country": "Mexico",
     "path": "places/Cancun.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1200
   },
   {
     "number_of_people": 5,
@@ -150,7 +166,8 @@
     "country": "Thailand",
     "path": "places/Bangkok.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 900
   },
   {
     "number_of_people": 2,
@@ -159,7 +176,8 @@
     "country": "Peru",
     "path": "places/MachuPicchu.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 2000
   },
   {
     "number_of_people": 4,
@@ -168,6 +186,7 @@
     "country": "Germany",
     "path": "places/Berlin.jpg",
     "favorite": false,
-    "hot": false
+    "hot": false,
+    "price": 1300
   }
 ]
