@@ -11,20 +11,20 @@ export default function Card({ trip, updateFavorite }) {
     <li className=" shadow-lg rounded-lg text-black">
       <img className="rounded-t-lg" src={trip.path} alt={trip.name_of_place} />
       <div className="p-4">
-        <header className="flex gap-1 items-center mb-2">
+        <header className="flex gap-1 items-center mb-2 text-lg">
           {trip.hot && <AiFillFire className="text-red text-2xl" />}
           <h3>{trip.name_of_place}</h3>
         </header>
-        <span>{trip.country}</span>
+        <span className="text-gray-600">{trip.country}</span>
         <ul>
           <li className="flex items-center gap-2">
-            <BsPeopleFill />
+            <BsPeopleFill className="text-green" />
             {`${trip.number_of_people} ${
               trip.number_of_people > 1 ? "people" : "person"
             }`}
           </li>
           <li className="flex items-center gap-2">
-            <AiOutlineClockCircle /> {trip.time_of_trip}
+            <AiOutlineClockCircle className="text-green" /> {trip.time_of_trip}
           </li>
         </ul>
         <footer className="pt-4 flex justify-between items-center">
