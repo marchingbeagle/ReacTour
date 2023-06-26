@@ -1,0 +1,173 @@
+[
+  {
+    "number_of_people": 2,
+    "time_of_trip": "7 days",
+    "name_of_place": "Paris",
+    "country": "France",
+    "path": "places/Paris.jpg",
+    "favorite": false,
+    "hot": true
+  },
+  {
+    "number_of_people": 1,
+    "time_of_trip": "5 days",
+    "name_of_place": "Tokyo",
+    "country": "Japan",
+    "path": "places/Tokyo.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 4,
+    "time_of_trip": "10 days",
+    "name_of_place": "Rome",
+    "country": "Italy",
+    "path": "places/Rome.jpg",
+    "favorite": false,
+    "hot": true
+  },
+  {
+    "number_of_people": 3,
+    "time_of_trip": "4 days",
+    "name_of_place": "New York City",
+    "country": "United States",
+    "path": "places/NewYorkCity.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 2,
+    "time_of_trip": "6 days",
+    "name_of_place": "Barcelona",
+    "country": "Spain",
+    "path": "places/Barcelona.jpg",
+    "favorite": false,
+    "hot": true
+  },
+  {
+    "number_of_people": 1,
+    "time_of_trip": "3 days",
+    "name_of_place": "Sydney",
+    "country": "Australia",
+    "path": "places/Sydney.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 5,
+    "time_of_trip": "12 days",
+    "name_of_place": "Cape Town",
+    "country": "South Africa",
+    "path": "places/CapeTown.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 2,
+    "time_of_trip": "8 days",
+    "name_of_place": "Bali",
+    "country": "Indonesia",
+    "path": "places/Bali.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 4,
+    "time_of_trip": "9 days",
+    "name_of_place": "London",
+    "country": "United Kingdom",
+    "path": "places/London.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 1,
+    "time_of_trip": "2 days",
+    "name_of_place": "Rio de Janeiro",
+    "country": "Brazil",
+    "path": "places/RioDeJaneiro.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 3,
+    "time_of_trip": "5 days",
+    "name_of_place": "Amsterdam",
+    "country": "Netherlands",
+    "path": "places/Amsterdam.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 2,
+    "time_of_trip": "7 days",
+    "name_of_place": "Seoul",
+    "country": "South Korea",
+    "path": "places/Seoul.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 1,
+    "time_of_trip": "4 days",
+    "name_of_place": "Dubai",
+    "country": "United Arab Emirates",
+    "path": "places/Dubai.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 4,
+    "time_of_trip": "8 days",
+    "name_of_place": "Prague",
+    "country": "Czech Republic",
+    "path": "places/Prague.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 2,
+    "time_of_trip": "6 days",
+    "name_of_place": "Hawaii",
+    "country": "United States",
+    "path": "places/Hawaii.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 1,
+    "time_of_trip": "3 days",
+    "name_of_place": "Cancun",
+    "country": "Mexico",
+    "path": "places/Cancun.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 5,
+    "time_of_trip": "10 days",
+    "name_of_place": "Bangkok",
+    "country": "Thailand",
+    "path": "places/Bangkok.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 2,
+    "time_of_trip": "9 days",
+    "name_of_place": "Machu Picchu",
+    "country": "Peru",
+    "path": "places/MachuPicchu.jpg",
+    "favorite": false,
+    "hot": false
+  },
+  {
+    "number_of_people": 4,
+    "time_of_trip": "7 days",
+    "name_of_place": "Berlin",
+    "country": "Germany",
+    "path": "places/Berlin.jpg",
+    "favorite": false,
+    "hot": false
+  }
+]
