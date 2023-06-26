@@ -16,7 +16,7 @@ export default function CardList() {
   };
 
   return (
-    <ul className="w-9-/10 flex flex-wrap justify-center gap-4">
+    <ul className="w-9/10 flex flex-wrap justify-center gap-4 sm:w-auto">
       {trips.map((trip) => {
         trip.id = uuidv4();
         return (

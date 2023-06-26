@@ -8,8 +8,12 @@ import { BsPeopleFill } from "react-icons/bs";
 
 export default function Card({ trip, updateFavorite }) {
   return (
-    <li className=" rounded-lg text-black shadow-lg">
-      <img className="rounded-t-lg" src={trip.path} alt={trip.name_of_place} />
+    <li className="max-w-fit rounded-lg text-black shadow-lg">
+      <img
+        className="w-80 rounded-t-lg md:w-52"
+        src={trip.path}
+        alt={trip.name_of_place}
+      />
       <div className="p-4">
         <header className="mb-2 flex items-center gap-1 text-lg">
           {trip.hot && <AiFillFire className="text-2xl text-red" />}

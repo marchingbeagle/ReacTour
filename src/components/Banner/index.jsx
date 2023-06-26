@@ -7,7 +7,7 @@ export default function Banner() {
         <p className="py-5 text-[40px] tracking-tighter text-[#fff] drop-shadow-xl sm:text-[48px]">
           Find
           <strong>
-            <i>Adventures,</i>
+            <i> Adventures, </i>
           </strong>
           you want to talk about
         </p>
