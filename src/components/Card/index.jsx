@@ -8,11 +8,11 @@ import { BsPeopleFill } from "react-icons/bs";
 
 export default function Card({ trip, updateFavorite }) {
   return (
-    <li className=" shadow-lg rounded-lg text-black">
+    <li className=" rounded-lg text-black shadow-lg">
       <img className="rounded-t-lg" src={trip.path} alt={trip.name_of_place} />
       <div className="p-4">
-        <header className="flex gap-1 items-center mb-2 text-lg">
-          {trip.hot && <AiFillFire className="text-red text-2xl" />}
+        <header className="mb-2 flex items-center gap-1 text-lg">
+          {trip.hot && <AiFillFire className="text-2xl text-red" />}
           <h3>{trip.name_of_place}</h3>
         </header>
         <span className="text-gray-600">{trip.country}</span>
@@ -27,19 +27,19 @@ export default function Card({ trip, updateFavorite }) {
             <AiOutlineClockCircle className="text-green" /> {trip.time_of_trip}
           </li>
         </ul>
-        <footer className="pt-4 flex justify-between items-center">
+        <footer className="flex items-center justify-between pt-4">
           {trip.favorite ? (
             <AiFillHeart
-              className="cursor-pointer text-red text-2xl"
+              className="cursor-pointer text-2xl text-red"
               onClick={() => updateFavorite(trip.id)}
             />
           ) : (
             <AiOutlineHeart
-              className="cursor-pointer text-gray-400 text-2xl"
+              className="cursor-pointer text-2xl text-gray-400"
               onClick={() => updateFavorite(trip.id)}
             />
           )}
-          <span className="text-red text-xl uppercase font-bold">{`from: $${trip.price}`}</span>
+          <span className="text-xl font-bold uppercase text-red">{`from: $${trip.price}`}</span>
         </footer>
       </div>
     </li>

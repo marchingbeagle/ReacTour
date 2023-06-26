@@ -11,12 +11,12 @@ export default function NavList({ open }) {
   return (
     <nav>
       <ul
-        className={`flex gap-4 md:gap-10 flex-col md:flex-row items-start md:items-center mt-4 pt-6 sm:pt-0 pb-4 pl-5 sm:pl-0 absolute md:static bg-purple w-full left-0 md:z-auto transition-all duration-500 z-[-100] ${
+        className={`absolute left-0 z-[-100] mt-4 flex w-full flex-col items-start gap-4 bg-purple pb-4 pl-5 pt-6 transition-all duration-500 sm:pl-0 sm:pt-0 md:static md:z-auto md:flex-row md:items-center md:gap-10 ${
           open ? "top-10" : "top-[-500px]"
         } `}
       >
         {Links.map((link, index) => (
-          <li key={index} className="text-white text-md uppercase">
+          <li key={index} className="text-md uppercase text-white">
             <a className="drop-shadow" href={link.link}>
               {link.name}
             </a>

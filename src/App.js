@@ -4,7 +4,7 @@ import Banner from "components/Banner";
 
 export default function App() {
   return (
-    <div className="w-full h-screen">
+    <div className="h-screen w-full">
       <Header />
       <Banner />
       <CardList />

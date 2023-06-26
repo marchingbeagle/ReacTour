@@ -5,7 +5,7 @@ export default function HeaderButton() {
     <li>
       <a
         href="/"
-        className="flex items-center gap-2 bg-green text-white font-bold py-2 px-4 rounded-lg"
+        className="flex items-center gap-2 rounded-lg bg-green px-4 py-2 font-bold text-white"
       >
         <FaPlus />
         Submit a tour
