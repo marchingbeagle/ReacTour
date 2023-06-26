@@ -27,7 +27,7 @@ export default function Card({ trip, updateFavorite }) {
             <AiOutlineClockCircle /> {trip.time_of_trip}
           </li>
         </ul>
-        <footer className="pt-4">
+        <footer className="pt-4 flex justify-between items-center">
           {trip.favorite ? (
             <AiFillHeart
               className="cursor-pointer text-red text-2xl"
@@ -39,6 +39,7 @@ export default function Card({ trip, updateFavorite }) {
               onClick={() => updateFavorite(trip.id)}
             />
           )}
+          <span className="text-red text-xl uppercase font-bold">{`from: $${trip.price}`}</span>
         </footer>
       </div>
     </li>
