@@ -35,7 +35,7 @@ export default function Card({ trip, updateFavorite }) {
             />
           ) : (
             <AiOutlineHeart
-              className="cursor-pointer text-2xl"
+              className="cursor-pointer text-gray-400 text-2xl"
               onClick={() => updateFavorite(trip.id)}
             />
           )}
