@@ -24,7 +24,7 @@ export default function Banner() {
       </div>
       <a
         href="/"
-        className="text-[#fff] bg-black/[.2] px-4 py-2 hover:translate-y-2 transition-all"
+        className="text-[#fff] bg-black/[.2] px-4 py-2 hover:translate-y-2 transition-all w-fit"
       >
         How it works
       </a>
