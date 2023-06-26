@@ -19,8 +19,8 @@ export default function Header() {
         href="/"
         className="flex items-center text-3xl text-white cursor-pointer bg-purple"
       >
-        <MdTravelExplore />
-        <h1 className="text-inter">ReacTour</h1>
+        <MdTravelExplore className="drop-shadow" />
+        <h1 className="text-inter drop-shadow">ReacTour</h1>
       </a>
       <div
         onClick={() => setOpen(!open)}
@@ -36,7 +36,9 @@ export default function Header() {
         >
           {Links.map((link, index) => (
             <li key={index} className="text-white text-md uppercase">
-              <a href={link.link}>{link.name}</a>
+              <a className="drop-shadow" href={link.link}>
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>
