@@ -22,6 +22,7 @@ export default function Banner() {
             typeSpeed={40}
             backSpeed={50}
             loop
+            attr="placeholder"
           >
             <input type="text" className="w-full rounded-l-lg p-4" />
           </Typed>
