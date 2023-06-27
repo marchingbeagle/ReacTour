@@ -10,7 +10,7 @@ export default function Card({ trip, updateFavorite }) {
   return (
     <li className="rounded-lg text-black shadow-lg">
       <img
-        className="w-80 rounded-t-lg md:w-52"
+        className="w-fit rounded-t-lg md:w-fit"
         src={trip.path}
         alt={trip.name_of_place}
       />

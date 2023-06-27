@@ -10,13 +10,13 @@ export default function App() {
       <Banner />
 
       <main className="px-8 md:px-16">
-        <h2 className="pb-4 pt-8 text-3xl md:pt-16">
-          <strong>
+        <h2 className="pb-4 pt-8 text-3xl text-gray-500 md:pt-16">
+          <strong className="text-gray-700">
             <i>Required </i>
           </strong>
           to Visit
         </h2>
-        <section className="flex flex-col md:flex-row">
+        <section className="sm-gap4 flex flex-col md:flex-row md:gap-12">
           <BannerAside />
           <CardList />
         </section>
