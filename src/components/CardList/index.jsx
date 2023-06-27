@@ -35,7 +35,11 @@ export default function CardList({ tripsList, filterContinent }) {
         );
       })}
 
-      <ShowMoreButton seeMore={seeMore} setMore={setMore} />
+      <ShowMoreButton
+        seeMore={seeMore}
+        setMore={setMore}
+        filterContinent={filterContinent}
+      />
     </ul>
   );
 }
