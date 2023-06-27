@@ -8,19 +8,19 @@ import { BsPeopleFill } from "react-icons/bs";
 
 export default function Card({ trip, updateFavorite }) {
   return (
-    <li className="max-w-fit rounded-lg text-black shadow-lg">
+    <li className="rounded-lg text-black shadow-lg">
       <img
         className="w-80 rounded-t-lg md:w-52"
         src={trip.path}
         alt={trip.name_of_place}
       />
-      <div className="p-4">
-        <header className="mb-2 flex items-center gap-1 text-lg">
+      <div className="flex flex-col p-4">
+        <header className=" mb-2 flex items-center gap-1 text-lg">
           {trip.hot && <AiFillFire className="text-2xl text-red" />}
           <h3>{trip.name_of_place}</h3>
         </header>
         <span className="text-gray-600">{trip.country}</span>
-        <ul>
+        <ul className="flex-grow">
           <li className="flex items-center gap-2">
             <BsPeopleFill className="text-green" />
             {`${trip.number_of_people} ${
@@ -31,7 +31,7 @@ export default function Card({ trip, updateFavorite }) {
             <AiOutlineClockCircle className="text-green" /> {trip.time_of_trip}
           </li>
         </ul>
-        <footer className="flex items-center justify-between pt-4">
+        <footer className="mt-4 flex items-center justify-between border-t-2 pt-1">
           {trip.favorite ? (
             <AiFillHeart
               className="cursor-pointer text-2xl text-red"
