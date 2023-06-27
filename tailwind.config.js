@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      default: ["Poppins", "sans-serif"],
+    },
     extend: {
       colors: {
         purple: "#9251FF",

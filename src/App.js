@@ -5,7 +5,7 @@ import BannerAside from "components/BannerAside";
 
 export default function App() {
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full font-default">
       <Header />
       <Banner />
 
