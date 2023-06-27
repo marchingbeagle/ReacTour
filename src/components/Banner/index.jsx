@@ -18,13 +18,13 @@ export default function Banner() {
             placeholder="Search the best places"
           />
           <a href="/" className=" rounded-r bg-green">
-            <AiOutlineSearch className="cursor-pointer p-4 text-6xl transition-all hover:scale-125 " />
+            <AiOutlineSearch className="cursor-pointer p-4 text-6xl text-white transition-all hover:scale-125 " />
           </a>
         </div>
       </div>
       <a
         href="/"
-        className="w-fit bg-black/[.2] px-4 py-2 text-[#fff] transition-all hover:translate-y-2"
+        className="mt-2 w-fit bg-black/[.5] px-4 py-2 text-[#fff] transition-all hover:translate-y-2 md:mt-0"
       >
         How it works
       </a>
