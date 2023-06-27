@@ -34,16 +34,16 @@ export default function Card({ trip, updateFavorite }) {
         <footer className="mt-4 flex items-center justify-between border-t-2 pt-1">
           {trip.favorite ? (
             <AiFillHeart
-              className="cursor-pointer text-2xl text-red"
+              className="cursor-pointer text-2xl text-red transtion-all "
               onClick={() => updateFavorite(trip.id)}
             />
           ) : (
             <AiOutlineHeart
-              className="cursor-pointer text-2xl text-gray-400"
+              className="cursor-pointer text-2xl text-gray-400 sm:hover:scale-110 sm:hover:translate-y-1 hover:text-red transition-all"
               onClick={() => updateFavorite(trip.id)}
             />
           )}
-          <span className="text-xl font-bold uppercase text-red">{`from: $${trip.price}`}</span>
+          <span className="text-lg md:text-md font-bold uppercase text-red">{`from: $${trip.price}`}</span>
         </footer>
       </div>
     </li>

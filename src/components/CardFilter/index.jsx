@@ -11,9 +11,9 @@ function CardFilter({ tripsList, handleSelect, value }) {
             Filter by continent:
           </div>
         </li>
-        <li className="w-1/3 ">
+        <li className="w-1/3">
           <select
-            className="h-full w-full rounded-lg bg-white px-4"
+            className="h-full w-full cursor-pointer rounded-lg bg-white px-4 outline-green transition-all duration-75 sm:hover:outline sm:hover:outline-2 sm:hover:outline-green"
             value={value}
             onChange={(event) => handleSelect(event)}
           >

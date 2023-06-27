@@ -21,7 +21,7 @@ export default function CardList({ tripsList, filterContinent }) {
   };
 
   return (
-    <ul className="grid w-full grid-rows-2 gap-4 sm:grid-cols-3 md:w-2/3 lg:grid-cols-4">
+    <ul className="grid w-full grid-rows-2 gap-4 sm:grid-cols-2 md:w-2/3 lg:grid-cols-3 xl:grid-cols-4">
       {trips.map((trip, index) => {
         trip.id = uuidv4();
         return index >

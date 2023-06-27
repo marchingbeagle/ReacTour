@@ -3,7 +3,7 @@ import HeaderButton from "../HeaderButton";
 export default function NavList({ open }) {
   const Links = [
     { name: "Home", link: "/" },
-    { name: "Find your trip", link: "/" },
+
     { name: "Discounts", link: "/" },
     { name: "Contacs", link: "/" },
     { name: "About us", link: "/" },

@@ -7,7 +7,7 @@ function ShowMoreButton({ seeMore, setMore, filterContinent }) {
     <li>
       <button
         onClick={seeMoreHandler}
-        className={` mb-8 rounded-lg bg-green px-20 py-4 font-bold tracking-wider text-white shadow ${
+        className={` mb-8 w-full rounded-lg bg-green py-4 font-bold tracking-wider text-white shadow  ${
           filterContinent !== "Filter" && "hidden"
         }`}
       >
