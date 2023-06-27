@@ -1,4 +1,5 @@
 import { AiOutlineSearch } from "react-icons/ai";
+import Typed from "react-typed";
 
 export default function Banner() {
   return (
@@ -11,12 +12,19 @@ export default function Banner() {
           </strong>
           you want to talk about
         </p>
-        <div className="flex ">
-          <input
-            type="text"
-            className="w-full rounded-l-lg p-4"
-            placeholder="Search the best places"
-          />
+        <div className="flex">
+          <Typed
+            className="w-full text-gray-400 flex rounded-l-lg m-0 "
+            strings={[
+              "Search for the best places",
+              "Search for the best experiences",
+            ]}
+            typeSpeed={40}
+            backSpeed={50}
+            loop
+          >
+            <input type="text" className="w-full rounded-l-lg p-4" />
+          </Typed>
           <a href="/" className=" rounded-r bg-green">
             <AiOutlineSearch className="cursor-pointer p-4 text-6xl text-white transition-all hover:scale-125 " />
           </a>
