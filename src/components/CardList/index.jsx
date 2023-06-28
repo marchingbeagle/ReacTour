@@ -20,19 +20,19 @@ export default function CardList({ tripsList, filterContinent }) {
     );
   };
 
+  const renderCard = (trip) => {
+    return <Card key={trip.id} trip={trip} updateFavorite={updateFavorite} />;
+  };
+
   return (
     <ul className="grid w-full grid-rows-2 gap-4 sm:grid-cols-2 md:w-2/3 lg:grid-cols-3 xl:grid-cols-4">
       {trips.map((trip, index) => {
         trip.id = uuidv4();
-        return index >
-          (seeMore ? index : false || 7) ? null : filterContinent ===
-          "Filter" ? (
-          <Card key={trip.id} trip={trip} updateFavorite={updateFavorite} />
-        ) : (
-          filterContinent === trip.continent && (
-            <Card key={trip.id} trip={trip} updateFavorite={updateFavorite} />
-          )
-        );
+        return index > (seeMore ? index : 7)
+          ? null
+          : filterContinent === "Filter"
+          ? renderCard(trip)
+          : filterContinent === trip.continent && renderCard(trip);
       })}
 
       <ShowMoreButton
