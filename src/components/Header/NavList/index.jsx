@@ -1,13 +1,13 @@
+import { NavLink } from "react-router-dom";
 import HeaderButton from "../HeaderButton";
 
 export default function NavList({ open }) {
   const Links = [
     { name: "Home", link: "/" },
-
-    { name: "Discounts", link: "/" },
-    { name: "Contacs", link: "/" },
-    { name: "About us", link: "/" },
+    { name: "Contact us", link: "contactus" },
+    { name: "About us", link: "aboutus" },
   ];
+
   return (
     <nav>
       <ul
@@ -17,9 +17,19 @@ export default function NavList({ open }) {
       >
         {Links.map((link, index) => (
           <li key={index} className="text-md uppercase text-white">
-            <a className="drop-shadow" href={link.link}>
+            <NavLink
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? ""
+                  : isActive
+                  ? " transition-colors hover:bg-green duration-500 rounded-lg border-2"
+                  : ""
+              }
+              style={{ padding: "0.5rem 1rem" }}
+              to={link.link}
+            >
               {link.name}
-            </a>
+            </NavLink>
           </li>
         ))}
         <HeaderButton />
