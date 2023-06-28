@@ -5,6 +5,7 @@ import Header from "components/Header";
 import MainSectionHeader from "components/MainSectionHeader";
 import tripsList from "./trips.json";
 import { useState } from "react";
+import Footer from "components/Footer";
 
 export default function App() {
   const handleSelect = (event) => {
@@ -24,11 +25,12 @@ export default function App() {
           handleSelect={handleSelect}
           filterContinent={filterContinent}
         />
-        <section className="sm-gap4 flex flex-col md:flex-row md:gap-12">
+        <section className="sm-gap4 flex flex-col md:flex-row md:gap-12 pb-8">
           <BannerAside />
           <CardList tripsList={tripsList} filterContinent={filterContinent} />
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
