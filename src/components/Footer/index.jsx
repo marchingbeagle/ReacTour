@@ -11,9 +11,9 @@ const scrollToTop = () => {
 
 function Footer() {
   return (
-    <footer className="bg-purple flex gap-4 flex-col items-center py-8 md:px-8 md:flex-row md:justify-between ">
+    <footer className="bg-black flex gap-4 flex-col items-center py-8 md:px-8 md:flex-row md:justify-between ">
       <div onClick={scrollToTop} className="w-fit">
-        <Logo />
+        <Logo color="black" />
       </div>
       <a
         className="flex text-white gap-2 md:text-md items-center font-bold"
