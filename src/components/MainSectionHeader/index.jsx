@@ -1,6 +1,6 @@
 import CardFilter from "components/CardFilter";
 
-function MainSectionHeader({ tripsList, handleSelect, filterContinent }) {
+function MainSectionHeader({ handleSelect, filterContinent }) {
   return (
     <div className="flex flex-col items-start py-4 md:flex-row md:items-center md:justify-between ">
       <h2 className="text-3xl text-gray-500 ">
@@ -9,11 +9,7 @@ function MainSectionHeader({ tripsList, handleSelect, filterContinent }) {
         </strong>
         to Visit
       </h2>
-      <CardFilter
-        tripsList={tripsList}
-        handleSelect={handleSelect}
-        value={filterContinent}
-      />
+      <CardFilter handleSelect={handleSelect} value={filterContinent} />
     </div>
   );
 }
