@@ -1,26 +1,19 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import { LoadTripsContext } from "context/LoadTripsContext";
+import { v4 as uuid4 } from "uuid";
 import Card from "components/Card";
 import ShowMoreButton from "./SeeMoreButton";
 
-export default function CardList({ tripsList, filterContinent }) {
-  const [trips, setTrips] = useState([...tripsList]);
+export default function CardList({ filterContinent }) {
   const [seeMore, setMore] = useState(false);
+  const { trips } = useContext(LoadTripsContext);
 
   useEffect(() => {
     filterContinent !== "Filter" ? setMore(true) : setMore(false);
   }, [filterContinent]);
 
-  const updateFavorite = (id) => {
-    setTrips(
-      trips.map((trip) => {
-        trip.id === id && (trip.favorite = !trip.favorite);
-        return trip;
-      })
-    );
-  };
-
   const renderCard = (trip) => {
-    return <Card key={trip.id} trip={trip} updateFavorite={updateFavorite} />;
+    return <Card key={uuid4()} trip={trip} />;
   };
 
   return (
