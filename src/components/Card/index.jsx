@@ -1,12 +1,20 @@
 import { AiOutlineClockCircle, AiFillFire } from "react-icons/ai";
 import { BsPeopleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 import FavoriteHeart from "./FavoriteHeart";
 
-export default function Card({ trip, updateFavorite }) {
+export default function Card({ trip }) {
+  const scrollToTop = () => {
+    scroll.scrollToTop({
+      duration: 500,
+      smooth: "easeInOutQuart",
+    });
+  };
+
   return (
     <li className="rounded-lg text-black shadow-md hover:-translate-y-3 hover:shadow-xl transition-all duration-300 overflow-hidden">
-      <Link to={`trips/${trip.id}`}>
+      <Link to={`/trips/${trip.id}`} onClick={scrollToTop}>
         <img
           className="w-fit rounded-t-lg md:w-fit hover:scale-110 transition-all duration-300"
           src={trip.path}
@@ -31,7 +39,7 @@ export default function Card({ trip, updateFavorite }) {
           </li>
         </ul>
         <footer className="mt-4 flex items-center justify-between border-t-2 pt-1">
-          <FavoriteHeart trip={trip} updateFavorite={updateFavorite} />
+          <FavoriteHeart trip={trip} />
           <span className="text-lg md:text-md font-bold uppercase text-red">{`from: $${trip.price}`}</span>
         </footer>
       </main>
