@@ -4,8 +4,8 @@ import Logo from "components/Logo";
 
 const scrollToTop = () => {
   scroll.scrollToTop({
-    duration: 500, // Duration of the scroll animation in milliseconds
-    smooth: "easeInOutQuart", // Easing function to control the scroll animation
+    duration: 500,
+    smooth: "easeInOutQuart",
   });
 };
 
