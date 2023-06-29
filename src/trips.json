@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "number_of_people": 2,
     "time_of_trip": "7 days",
     "name_of_place": "Paris",
@@ -12,7 +11,6 @@
     "continent": "Europe"
   },
   {
-    "id": 2,
     "number_of_people": 1,
     "time_of_trip": "5 days",
     "name_of_place": "Tokyo",
@@ -24,7 +22,6 @@
     "continent": "Asia"
   },
   {
-    "id": 3,
     "number_of_people": 4,
     "time_of_trip": "10 days",
     "name_of_place": "Rome",
@@ -36,7 +33,6 @@
     "continent": "Europe"
   },
   {
-    "id": 4,
     "number_of_people": 3,
     "time_of_trip": "4 days",
     "name_of_place": "New York City",
@@ -48,7 +44,6 @@
     "continent": "North America"
   },
   {
-    "id": 5,
     "number_of_people": 2,
     "time_of_trip": "6 days",
     "name_of_place": "Barcelona",
@@ -60,7 +55,6 @@
     "continent": "Europe"
   },
   {
-    "id": 6,
     "number_of_people": 1,
     "time_of_trip": "3 days",
     "name_of_place": "Sydney",
@@ -72,7 +66,6 @@
     "continent": "Australia"
   },
   {
-    "id": 7,
     "number_of_people": 5,
     "time_of_trip": "12 days",
     "name_of_place": "Cape Town",
@@ -84,7 +77,6 @@
     "continent": "Africa"
   },
   {
-    "id": 8,
     "number_of_people": 2,
     "time_of_trip": "8 days",
     "name_of_place": "Bali",
@@ -96,7 +88,6 @@
     "continent": "Asia"
   },
   {
-    "id": 9,
     "number_of_people": 4,
     "time_of_trip": "9 days",
     "name_of_place": "London",
@@ -108,7 +99,6 @@
     "continent": "Europe"
   },
   {
-    "id": 10,
     "number_of_people": 1,
     "time_of_trip": "2 days",
     "name_of_place": "Rio de Janeiro",
@@ -120,7 +110,6 @@
     "continent": "South America"
   },
   {
-    "id": 11,
     "number_of_people": 3,
     "time_of_trip": "5 days",
     "name_of_place": "Amsterdam",
@@ -132,7 +121,6 @@
     "continent": "Europe"
   },
   {
-    "id": 12,
     "number_of_people": 2,
     "time_of_trip": "7 days",
     "name_of_place": "Seoul",
@@ -144,7 +132,6 @@
     "continent": "Asia"
   },
   {
-    "id": 13,
     "number_of_people": 1,
     "time_of_trip": "4 days",
     "name_of_place": "Dubai",
@@ -156,7 +143,6 @@
     "continent": "Asia"
   },
   {
-    "id": 14,
     "number_of_people": 4,
     "time_of_trip": "8 days",
     "name_of_place": "Prague",
@@ -168,7 +154,6 @@
     "continent": "Europe"
   },
   {
-    "id": 15,
     "number_of_people": 2,
     "time_of_trip": "6 days",
     "name_of_place": "Hawaii",
@@ -180,7 +165,6 @@
     "continent": "North America"
   },
   {
-    "id": 16,
     "number_of_people": 1,
     "time_of_trip": "3 days",
     "name_of_place": "Cancun",
@@ -192,7 +176,6 @@
     "continent": "North America"
   },
   {
-    "id": 17,
     "number_of_people": 5,
     "time_of_trip": "10 days",
     "name_of_place": "Bangkok",
@@ -204,7 +187,6 @@
     "continent": "Asia"
   },
   {
-    "id": 18,
     "number_of_people": 2,
     "time_of_trip": "9 days",
     "name_of_place": "Machu Picchu",
@@ -216,7 +198,6 @@
     "continent": "South America"
   },
   {
-    "id": 19,
     "number_of_people": 4,
     "time_of_trip": "7 days",
     "name_of_place": "Berlin",

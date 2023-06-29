@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { LoadTripsProvider } from "context/LoadTripsContext";
 import Home from "routes/Home";
 import DefaultPage from "components/DefaultPage";
 import ErrorPage from "routes/ErrorPage";
 import "./index.css";
 import AboutUs from "routes/AboutUs";
 import ContactUs from "routes/ContactUs";
+import Trips from "routes/Trips";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,11 @@ const router = createBrowserRouter([
         element: <AboutUs />,
       },
       {
+        path: "trips/:id",
+        element: <Trips />,
+        errorElement: <ErrorPage />,
+      },
+      {
         path: "*",
         element: <ErrorPage />,
       },
@@ -36,6 +43,8 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <LoadTripsProvider>
+      <RouterProvider router={router} />
+    </LoadTripsProvider>
   </React.StrictMode>
 );
