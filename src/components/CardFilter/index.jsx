@@ -1,7 +1,10 @@
+import { LoadTripsContext } from "context/LoadTripsContext";
+import { useContext } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-function CardFilter({ tripsList, handleSelect, value }) {
-  const continents = [...new Set(tripsList.map((trip) => trip.continent))];
+function CardFilter({ handleSelect, value }) {
+  const { trips } = useContext(LoadTripsContext);
+  const continents = [...new Set(trips.map((trip) => trip.continent))];
 
   return (
     <nav className="self-stretch pt-8 sm:pt-0">
