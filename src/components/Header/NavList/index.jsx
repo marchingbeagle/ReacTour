@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import HeaderButton from "../HeaderButton";
 
-export default function NavList({ open }) {
+export default function NavList({ open, setOpen }) {
   const Links = [
     { name: "Home", link: "/" },
     { name: "Contact us", link: "contactus" },
@@ -27,6 +27,7 @@ export default function NavList({ open }) {
               }
               style={{ padding: "0.5rem 1rem" }}
               to={link.link}
+              onClick={() => setOpen(!open)}
             >
               {link.name}
             </NavLink>
