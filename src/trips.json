@@ -149,7 +149,7 @@
     "country": "Czech Republic",
     "path": "/places/Prague.jpg",
     "favorite": false,
-    "hot": false,
+    "hot": true,
     "price": 1000,
     "continent": "Europe"
   },
@@ -182,7 +182,7 @@
     "country": "Thailand",
     "path": "/places/Bangkok.jpg",
     "favorite": false,
-    "hot": false,
+    "hot": true,
     "price": 900,
     "continent": "Asia"
   },
@@ -204,7 +204,7 @@
     "country": "Germany",
     "path": "/places/Berlin.jpg",
     "favorite": false,
-    "hot": false,
+    "hot": true,
     "price": 1300,
     "continent": "Europe"
   }
