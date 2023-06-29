@@ -1,20 +1,19 @@
-import {
-  AiOutlineHeart,
-  AiFillHeart,
-  AiOutlineClockCircle,
-  AiFillFire,
-} from "react-icons/ai";
+import { AiOutlineClockCircle, AiFillFire } from "react-icons/ai";
 import { BsPeopleFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import FavoriteHeart from "./FavoriteHeart";
 
 export default function Card({ trip, updateFavorite }) {
   return (
-    <li className="rounded-lg text-black shadow-lg">
-      <img
-        className="w-fit rounded-t-lg md:w-fit"
-        src={trip.path}
-        alt={trip.name_of_place}
-      />
-      <div className="flex flex-col p-4">
+    <li className="rounded-lg text-black shadow-md hover:-translate-y-3 hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <Link to={`trips/${trip.id}`}>
+        <img
+          className="w-fit rounded-t-lg md:w-fit hover:scale-110 transition-all duration-300"
+          src={trip.path}
+          alt={trip.name_of_place}
+        />
+      </Link>
+      <main className="flex flex-col p-4">
         <header className=" mb-2 flex items-center gap-1 text-lg">
           {trip.hot && <AiFillFire className="text-2xl text-red" />}
           <h3>{trip.name_of_place}</h3>
@@ -32,20 +31,10 @@ export default function Card({ trip, updateFavorite }) {
           </li>
         </ul>
         <footer className="mt-4 flex items-center justify-between border-t-2 pt-1">
-          {trip.favorite ? (
-            <AiFillHeart
-              className="cursor-pointer text-2xl text-red transtion-all "
-              onClick={() => updateFavorite(trip.id)}
-            />
-          ) : (
-            <AiOutlineHeart
-              className="cursor-pointer text-2xl text-gray-400 sm:hover:scale-110 sm:hover:translate-y-1 hover:text-red transition-all"
-              onClick={() => updateFavorite(trip.id)}
-            />
-          )}
+          <FavoriteHeart trip={trip} updateFavorite={updateFavorite} />
           <span className="text-lg md:text-md font-bold uppercase text-red">{`from: $${trip.price}`}</span>
         </footer>
-      </div>
+      </main>
     </li>
   );
 }
