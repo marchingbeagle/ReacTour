@@ -8,7 +8,8 @@
     "favorite": false,
     "hot": true,
     "price": 800,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Experience the charm of the City of Love with a 7-day trip to Paris. Visit iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Indulge in delicious French cuisine and explore the romantic streets of Montmartre."
   },
   {
     "number_of_people": 1,
@@ -19,7 +20,8 @@
     "favorite": false,
     "hot": false,
     "price": 1500,
-    "continent": "Asia"
+    "continent": "Asia",
+    "details": "Embark on a 5-day adventure to the bustling metropolis of Tokyo. Immerse yourself in the vibrant culture, explore the futuristic districts of Shibuya and Shinjuku, visit ancient temples, and savor delicious sushi and ramen."
   },
   {
     "number_of_people": 4,
@@ -30,7 +32,8 @@
     "favorite": false,
     "hot": true,
     "price": 1000,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Discover the Eternal City during a 10-day trip to Rome. Explore ancient Roman ruins like the Colosseum and Roman Forum, admire world-renowned art in the Vatican Museums, and indulge in authentic Italian pasta and gelato."
   },
   {
     "number_of_people": 3,
@@ -41,7 +44,8 @@
     "favorite": false,
     "hot": false,
     "price": 1200,
-    "continent": "North America"
+    "continent": "North America",
+    "details": "Experience the energy of the Big Apple with a 4-day trip to New York City. Explore iconic landmarks such as Times Square, Central Park, and the Statue of Liberty. Immerse yourself in the city's vibrant arts, culture, and culinary scene."
   },
   {
     "number_of_people": 2,
@@ -52,7 +56,8 @@
     "favorite": false,
     "hot": true,
     "price": 900,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Immerse yourself in the lively spirit of Barcelona during a 6-day trip. Marvel at the architectural masterpieces of Antoni Gaudí, stroll along the vibrant Las Ramblas, relax on the beautiful beaches, and indulge in delicious tapas and sangria."
   },
   {
     "number_of_people": 1,
@@ -63,7 +68,8 @@
     "favorite": false,
     "hot": false,
     "price": 1800,
-    "continent": "Australia"
+    "continent": "Australia",
+    "details": "Explore the stunning city of Sydney during a 3-day trip. Admire the iconic Sydney Opera House, relax on Bondi Beach, and take a ferry ride through Sydney Harbour. Enjoy the vibrant atmosphere, outdoor activities, and friendly locals."
   },
   {
     "number_of_people": 5,
@@ -74,7 +80,8 @@
     "favorite": false,
     "hot": false,
     "price": 2000,
-    "continent": "Africa"
+    "continent": "Africa",
+    "details": "Embark on a 12-day adventure to the breathtaking city of Cape Town. Discover stunning landscapes, including Table Mountain and Cape Point. Explore vibrant neighborhoods like Bo-Kaap, indulge in wine tasting in the nearby Winelands, and experience African wildlife on a safari."
   },
   {
     "number_of_people": 2,
@@ -85,7 +92,8 @@
     "favorite": false,
     "hot": false,
     "price": 1100,
-    "continent": "Asia"
+    "continent": "Asia",
+    "details": "Experience the enchanting island of Bali during an 8-day trip. Relax on pristine beaches, visit ancient temples like Tanah Lot, explore lush rice terraces, and indulge in traditional Balinese cuisine. Immerse yourself in the island's unique culture and spirituality."
   },
   {
     "number_of_people": 4,
@@ -96,7 +104,8 @@
     "favorite": false,
     "hot": false,
     "price": 1300,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Immerse yourself in the rich history and vibrant culture of London during a 9-day trip. Visit iconic landmarks like the Tower of London, Buckingham Palace, and Big Ben. Explore world-class museums, enjoy West End shows, and savor traditional afternoon tea."
   },
   {
     "number_of_people": 1,
@@ -107,7 +116,8 @@
     "favorite": false,
     "hot": false,
     "price": 1000,
-    "continent": "South America"
+    "continent": "South America",
+    "details": "Experience the vibrant spirit of Rio de Janeiro during a 2-day trip. Relax on the famous Copacabana and Ipanema beaches, marvel at the statue of Christ the Redeemer on Corcovado Mountain, and explore the colorful neighborhood of Santa Teresa."
   },
   {
     "number_of_people": 3,
@@ -118,7 +128,8 @@
     "favorite": false,
     "hot": false,
     "price": 1400,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Discover the charming city of Amsterdam during a 5-day trip. Explore the picturesque canals, visit world-class museums like the Van Gogh Museum and Rijksmuseum, and experience the vibrant nightlife. Don't forget to try traditional Dutch delicacies like stroopwafels and herring."
   },
   {
     "number_of_people": 2,
@@ -129,7 +140,8 @@
     "favorite": false,
     "hot": false,
     "price": 900,
-    "continent": "Asia"
+    "continent": "Asia",
+    "details": "Immerse yourself in the vibrant culture and modern cityscape of Seoul during a 7-day trip. Explore ancient palaces like Gyeongbokgung, shop for trendy fashion in Myeongdong, and indulge in delicious Korean barbecue. Don't miss the vibrant nightlife of Gangnam district."
   },
   {
     "number_of_people": 1,
@@ -140,7 +152,8 @@
     "favorite": false,
     "hot": false,
     "price": 2000,
-    "continent": "Asia"
+    "continent": "Asia",
+    "details": "Experience the luxurious and futuristic city of Dubai during a 4-day trip. Visit iconic landmarks like the Burj Khalifa and Palm Jumeirah, go on a desert safari, and indulge in world-class shopping and dining experiences."
   },
   {
     "number_of_people": 4,
@@ -151,7 +164,8 @@
     "favorite": false,
     "hot": true,
     "price": 1000,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Explore the enchanting city of Prague during an 8-day trip. Admire the stunning architecture of Prague Castle and Charles Bridge, wander through the charming Old Town, and taste traditional Czech beer and cuisine."
   },
   {
     "number_of_people": 2,
@@ -162,7 +176,8 @@
     "favorite": false,
     "hot": false,
     "price": 1500,
-    "continent": "North America"
+    "continent": "North America",
+    "details": "Escape to paradise with a 6-day trip to the beautiful islands of Hawaii. Relax on stunning beaches, hike through lush rainforests, and witness the power of active volcanoes. Immerse yourself in the unique Hawaiian culture and enjoy outdoor activities like snorkeling and surfing."
   },
   {
     "number_of_people": 1,
@@ -173,7 +188,8 @@
     "favorite": false,
     "hot": false,
     "price": 1200,
-    "continent": "North America"
+    "continent": "North America",
+    "details": "Relax and unwind in the tropical paradise of Cancun during a 3-day trip. Lounge on white sandy beaches, explore ancient Mayan ruins like Tulum, and indulge in delicious Mexican cuisine. Don't forget to take a refreshing dip in the crystal-clear cenotes."
   },
   {
     "number_of_people": 5,
@@ -184,7 +200,8 @@
     "favorite": false,
     "hot": true,
     "price": 900,
-    "continent": "Asia"
+    "continent": "Asia",
+    "details": "Experience the vibrant city life and rich cultural heritage of Bangkok during a 10-day trip. Visit iconic landmarks such as the Grand Palace and Wat Arun, explore bustling markets like Chatuchak Weekend Market, and indulge in delicious street food. Immerse yourself in Thai traditions and enjoy the lively nightlife scene."
   },
   {
     "number_of_people": 2,
@@ -195,7 +212,8 @@
     "favorite": false,
     "hot": false,
     "price": 2000,
-    "continent": "South America"
+    "continent": "South America",
+    "details": "Embark on an unforgettable journey to the ancient Inca city of Machu Picchu during a 9-day trip. Trek along the famous Inca Trail, witness breathtaking panoramic views of the Andes Mountains, and explore the mysterious ruins of Machu Picchu. Immerse yourself in the rich history and stunning natural landscapes of Peru."
   },
   {
     "number_of_people": 4,
@@ -206,6 +224,7 @@
     "favorite": false,
     "hot": true,
     "price": 1300,
-    "continent": "Europe"
+    "continent": "Europe",
+    "details": "Discover the dynamic and vibrant city of Berlin during a 7-day trip. Explore iconic landmarks like the Brandenburg Gate and Berlin Wall, visit world-class museums such as the Pergamon Museum, and experience the thriving arts and music scene. Dive into Berlin's history, enjoy delicious street food, and stroll through trendy neighborhoods."
   }
 ]
