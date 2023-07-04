@@ -4,7 +4,6 @@ import HeaderButton from "../HeaderButton";
 export default function NavList({ open, setOpen }) {
   const Links = [
     { name: "Home", link: "/" },
-    { name: "Contact us", link: "contactus" },
     { name: "About us", link: "aboutus" },
   ];
 

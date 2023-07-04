@@ -7,8 +7,8 @@ import DefaultPage from "components/DefaultPage";
 import ErrorPage from "routes/ErrorPage";
 import "./index.css";
 import AboutUs from "routes/AboutUs";
-import ContactUs from "routes/ContactUs";
 import Trips from "routes/Trips";
+import HeaderOnlyPage from "components/HeaderOnlyPage";
 
 const router = createBrowserRouter([
   {
@@ -20,14 +20,6 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "contactus",
-        element: <ContactUs />,
-      },
-      {
-        path: "aboutus",
-        element: <AboutUs />,
-      },
-      {
         path: "trips/:id",
         element: <Trips />,
         errorElement: <ErrorPage />,
@@ -35,6 +27,15 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <ErrorPage />,
+      },
+    ],
+  },
+  {
+    element: <HeaderOnlyPage />,
+    children: [
+      {
+        path: "aboutus",
+        element: <AboutUs />,
       },
     ],
   },
